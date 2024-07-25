@@ -1,8 +1,19 @@
 {
   "name": "reusable-hooks",
-  "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "description": "A collection of reusable React hooks",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgentilli/reusable-packages-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "form",
+    "firebase-auth",
+    "auth"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -28,5 +39,11 @@
     "typescript": "^5.2.2",
     "vite": "^5.3.4",
     "vite-plugin-dts": "^4.0.0-beta.1"
-  }
+  },
+  "author": "Dave Gentilli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgentilli/reusable-packages-hooks/issues"
+  },
+  "homepage": "https://github.com/your-username/reusable-packages-hooks#readme"
 }
