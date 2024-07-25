@@ -8,7 +8,7 @@ import {
   sendEmailVerification,
 } from 'firebase/auth';
 import { useEffect, useState } from 'react';
-import { AuthError } from './constants/auth';
+import { AuthError } from '../constants/auth';
 
 const useFirebaseAuth = () => {
   const auth = getAuth();
